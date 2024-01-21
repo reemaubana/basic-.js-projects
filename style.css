@@ -1,0 +1,132 @@
+        body{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .logo img {
+            width: 150px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .right ul {
+            display: flex;
+            list-style: none;
+            gap: 34px;
+        }
+
+        .right ul li {
+            display: flex;
+            gap: 5px;
+        }
+
+        section1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            font-size: 28px;
+        }
+
+        .break {
+            width: 1080px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .btn {
+            border: none;
+            background-color: #28aeda;
+            color: #FFFFFF;
+            border-radius: 5px;
+            height: 50px;
+            font-weight: bold;
+           
+        }
+
+        .btn:hover{
+            background-color: #6ecceb;
+            cursor: pointer;
+        }
+
+        .review {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            
+        }
+        
+        .download{
+           display: flex; 
+           justify-content: space-around;
+           align-items: center;
+           gap: 16px;
+           padding-top:48px;
+           padding-bottom:34px;
+             
+        }
+
+        .language{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+            grid-template-rows: repeat(4, 4fr);
+            grid-gap: 1rem;
+        }
+
+        .testflex{
+            margin-top: 75px;
+        }
+
+        .testflexnew{
+            margin-top: 51px;
+        }
+
+        .box{
+ 
+            background-color:#f8f7f7;
+            padding: 10px;
+            height: 130px;
+            width: 250px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .boxbtn1{
+            border: none;
+            background-color: #28aeda;
+            color: #FFFFFF;
+            border-radius: 5px;
+            height: 35px;
+           align-items: center;
+            font-weight: bold; 
+        
+        }
+
+        .boxbtn1:hover{
+            background-color: #6ecceb;
+            cursor: pointer;
+        }
+
+        .boxbtn2{
+            border: none;
+            background-color: #4ba30c;
+            color: #FFFFFF;
+            border-radius: 5px;
+            height: 35px;
+           align-items: center;
+            font-weight: bold;      
+        }
+
+        .boxbtn2:hover{
+            background-color: #8ddb56;
+            cursor: pointer;
+        }
+        .box p{
+            font-weight: normal;
+            font-size: 10px;
+        }
