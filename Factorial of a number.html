@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+
+<body>
+    <div class="container">
+        Enter a number:
+        <input type="number" class="n">
+
+        <button type="submit" class="btn">Submit</button>
+
+        <div class="result">
+            <p>The Factorial is: <span class="final"> </span> </p>
+        </div>
+    </div>
+
+    <script>
+        
+       let btn = addEventListener ("click", fact);
+
+       function fact() {
+           var n = document.querySelector(".n").value;
+           console.log(n);
+           var result = 1;
+           for (i=0; i<n; i++){
+               result = result * (n - i);
+            }
+            console.log(n + '! =' + " " + result);
+            document.querySelector(".final").innerHTML = result;
+        }
+        
+        //    var InputNumber = prompt("Enter a number");
+    </script>
+</body>
+
+</html>
